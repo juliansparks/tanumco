@@ -19,11 +19,11 @@ function moveBackground(event) {
     for(i=0; i < image.length; i++) {
         var trueIdx = i+1;
         image[i].style.transform="translate(-"+calculatedXbg.toString()+"%,-"+calculatedYbg.toString()+"%)";
-        image[i].style.background="url('../img/bg"+ trueIdx.toString() + ".jpg') no-repeat";
+        image[i].style.background="url('./img/bg"+ trueIdx.toString() + ".jpg') no-repeat";
         image[i].style.backgroundSize="cover";
         image[i].style.backgroundPosition ="center";
         overlay[i].style.transform="translate(-"+calculatedX.toString()+"%,-"+calculatedY.toString()+"%)";
-        overlay[i].style.background="url('../img/overlay"+ trueIdx.toString() + ".png') no-repeat";
+        overlay[i].style.background="url('./img/overlay"+ trueIdx.toString() + ".png') no-repeat";
         overlay[i].style.backgroundSize="cover";
         overlay[i].style.backgroundPosition ="center";
     }
