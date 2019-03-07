@@ -548,6 +548,7 @@ hr {
 .button-toggle {
     position: absolute;
     right: 5%;
+    top: 5%;
     z-index: 100;
 }
 
