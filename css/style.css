@@ -142,7 +142,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: url('../img/abt-bg.jpg');
+    background: transparent;
     background-size: cover;
     background-position: center;
     position: relative;

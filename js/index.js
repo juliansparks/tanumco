@@ -80,22 +80,12 @@ function opentab(tabName) {
 
     if(tabName === 'about') {
         document.getElementById(tabName).style.display = "flex";
-        for(i=0; i < contentClass.length; i++) {
-            contentClass[0].style.background = "url('../img/abt-bg.jpg')";
-            contentClass[0].style.backgroundSize="cover";
-            contentClass[0].style.backgroundPosition ="center";
-        }
         $("nav ul li .abt").addClass("active");
         $("nav ul li .gal").removeClass("active");
     }
 
     if(tabName === 'img-gallery') {
         document.getElementById(tabName).style.display = "flex";
-        for(i=0; i < contentClass.length; i++) {
-            contentClass[0].style.background = "url('../img/gallery-bg.jpg')";
-            contentClass[0].style.backgroundSize="cover";
-            contentClass[0].style.backgroundPosition ="center";
-        }
         $("nav ul li .gal").addClass("active");
         $("nav ul li .abt").removeClass("active");
         
